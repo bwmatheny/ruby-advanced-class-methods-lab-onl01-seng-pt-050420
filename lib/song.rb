@@ -45,7 +45,7 @@ class Song
     self.create
     full_file = file.split(" - ")
     full_file[1].split(".")
-    self.artist = full_file[0]
+    self.artist_name = full_file[0]
     self.name = full_file[1]
   end
 end
